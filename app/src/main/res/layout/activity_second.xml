@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06283D"
+    android:backgroundTint="#DFF6FF"
+    android:longClickable="false"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Instructions"
+        android:textAlignment="center"
+        android:textColor="#06283D"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="497dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="-71dp"
+        android:layout_marginEnd="86dp"
+        app:srcCompat="@drawable/instructions" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="293dp"
+        android:text="1. Open the designated application on your mobile device. \n2.Navigate to the menu by tapping on the menu button.\n3. To access the device, select the \'Controller\' option from the menu.\n4. Ensure that your mobile device\'s Bluetooth is enabled and successfully connected to the intended device.\n5. Choose the specific organ for which you seek acupressure treatment.\n6. Place your hand into the designated gloves.\n7. Adjust the position of your hand in accordance with the alignment of metallic balls.\n8. Exercise patience while the indicator transitions from red to green, signifying appropriate hand placement.\n9. Initiate the treatment by selecting the \'Start\' button.\n10. Tailor the parameters to suit your preferences and requirements.',"
+        android:textAlignment="viewStart"
+        android:textColor="#06283D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="724dp"
+        android:layout_marginEnd="94dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#06283D"
+        android:backgroundTintMode="add"
+        android:text="PROCEED"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
